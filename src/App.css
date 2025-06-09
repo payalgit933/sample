@@ -1,0 +1,90 @@
+.chat-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.chat-box {
+  max-height: 350px;
+  overflow-y: auto;
+  margin-bottom: 15px;
+  padding-right: 5px;
+}
+
+.msg {
+  margin: 8px 0;
+  padding: 10px 14px;
+  border-radius: 8px;
+  max-width: 80%;
+  line-height: 1.4;
+}
+
+.msg.user {
+  background: #d1e7dd;
+  align-self: flex-end;
+  text-align: right;
+  margin-left: auto;
+  color: #0f5132;
+}
+
+.msg.bot {
+  background: #f8d7da;
+  color: #842029;
+  margin-right: auto;
+}
+
+.input-area {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.reset-btn {
+  background: #dc3545;
+  color: white;
+}
+
+.reset-btn:hover {
+  background: #c82333;
+}
+
+.product-details {
+  border: 1px solid #ddd;
+  background: #fff;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.product-details h3 {
+  margin-top: 0;
+}
